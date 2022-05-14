@@ -1,8 +1,8 @@
 {
-  "name": "mern-expense-tracker",
+  "name": "financial-management-system",
   "version": "2.0.0",
-  "description": "A MERN stack based expense tracking application",
-  "author": "Shama Hoque",
+  "description": "A MERN stack based Financial Management application",
+  "author": " ",
   "license": "MIT",
   "keywords": [
     "react",
@@ -11,11 +11,7 @@
     "node",
     "mern"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shamahoque/mern-skeleton.git"
-  },
-  "homepage": "https://github.com/shamahoque/mern-skeleton",
+  
   "main": "./dist/server.generated.js",
   "scripts": {
     "development": "nodemon",

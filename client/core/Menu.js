@@ -25,7 +25,7 @@ const Menu = withRouter(({history}) => (
   <AppBar position="static">
     <Toolbar>
       <Typography variant="h6" color="inherit">
-        MERN Expense Tracker
+        Finance Management
       </Typography>
       <div>
         <Link to="/">

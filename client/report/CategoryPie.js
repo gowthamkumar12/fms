@@ -101,7 +101,7 @@ export default function Reports() {
                 {
                     fontSize: '10px',
                     fill: '#013157'
-                }]} text={( {datum} ) => `${datum.x}\n $${datum.y}`}/>}
+                }]} text={( {datum} ) => `${datum.x}\n RS.${datum.y}`}/>}
                  />
                  <VictoryLabel
           textAnchor="middle"

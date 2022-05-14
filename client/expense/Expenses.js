@@ -179,7 +179,7 @@ export default function Expenses() {
             expandIcon={<Edit />}
           >
             <div className={classes.info}>
-                <Typography className={classes.amount}>$ {expense.amount}</Typography><Divider style={{marginTop: 4, marginBottom: 4}}/>
+                <Typography className={classes.amount}>RS. {expense.amount}</Typography><Divider style={{marginTop: 4, marginBottom: 4}}/>
                 <Typography>
                     {expense.category}
                 </Typography>

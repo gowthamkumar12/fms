@@ -46,11 +46,10 @@ export default function Home(){
               <Typography variant="h6" className={classes.title}>
                 Home Page
               </Typography>
-              <CardMedia className={classes.media} image={unicornbikeImg} title="Unicorn Bicycle"/>
-              <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">Photo by <a href="https://unsplash.com/@anniespratt" target="_blank" rel="noopener noreferrer">Annie Spratt</a> on Unsplash</Typography>
+              <CardMedia className={classes.media} image="https://images.unsplash.com/photo-1534951009808-766178b47a4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmluYW5jZSUyMG1hbmFnZW1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" title="Unicorn Bicycle"/>
               <CardContent>
                 <Typography variant="body1" component="p">
-                  Welcome to the MERN Expense Tracker. <Link to='/signup'>Sign up</Link> or <Link to='/signin'>sign in</Link> to get started.
+                  Finance Management. <Link to='/signup'>Sign up</Link> or <Link to='/signin'>sign in</Link> to get started.
                 </Typography>
               </CardContent>
             </Card>)
